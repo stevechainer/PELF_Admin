@@ -23,27 +23,31 @@ const iconClasses = `h-6 w-6`
 // const submenuIconClasses = `h-5 w-5`
 
 const routes = [
-
+  // {
+  //   path: '/app/dashboard',
+  //   icon: <Squares2X2Icon className={iconClasses} />,
+  //   name: 'Dashboard',
+  // },
+  // {
+  //   path: '/app/approval-games', // url
+  //   icon: <InboxArrowDownIcon className={iconClasses} />, // icon component
+  //   name: 'Approval Games', // name that appear in Sidebar
+  // },
   {
-    path: '/app/dashboard',
-    icon: <Squares2X2Icon className={iconClasses}/>, 
-    name: 'Dashboard',
-  },
-  {
-    path: '/app/approval-games', // url
-    icon: <InboxArrowDownIcon className={iconClasses}/>, // icon component
-    name: 'Approval Games', // name that appear in Sidebar
+    path: '/app/history', // url
+    icon: <InboxArrowDownIcon className={iconClasses} />, // icon component
+    name: 'History', // name that appear in Sidebar
   },
   {
     path: '/app/live-games', // url
-    icon: <BoltIcon className={iconClasses}/>, // icon component
+    icon: <BoltIcon className={iconClasses} />, // icon component
     name: 'Live Games', // name that appear in Sidebar
   },
-  {
-    path: '/app/transactions', // url
-    icon: <CurrencyDollarIcon className={iconClasses}/>, // icon component
-    name: 'Transactions', // name that appear in Sidebar
-  },
+  // {
+  //   path: '/app/transactions', // url
+  //   icon: <CurrencyDollarIcon className={iconClasses} />, // icon component
+  //   name: 'Transactions', // name that appear in Sidebar
+  // },
   // {
   //   path: '/app/charts', // url
   //   icon: <ChartBarIcon className={iconClasses}/>, // icon component
@@ -126,19 +130,16 @@ const routes = [
   //     },
   //     {
   //       path: '/app/features',
-  //       icon: <TableCellsIcon className={submenuIconClasses}/>, 
+  //       icon: <TableCellsIcon className={submenuIconClasses}/>,
   //       name: 'Features',
   //     },
   //     {
   //       path: '/app/components',
-  //       icon: <CodeBracketSquareIcon className={submenuIconClasses}/>, 
+  //       icon: <CodeBracketSquareIcon className={submenuIconClasses}/>,
   //       name: 'Components',
   //     }
   //   ]
   // },
-  
 ]
 
 export default routes
-
-

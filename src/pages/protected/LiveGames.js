@@ -13,6 +13,7 @@ function InternalPage(){
 
     return(
         <LiveGames />
+        
     )
 }
 

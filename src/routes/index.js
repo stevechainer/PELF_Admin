@@ -8,6 +8,7 @@ const Dashboard = lazy(() => import('../pages/protected/Dashboard'))
 // const Charts = lazy(() => import('../pages/protected/Charts'))
 const ApprovalGames = lazy(() => import('../pages/protected/ApprovalGames'))
 const LiveGames = lazy(() => import('../pages/protected/LiveGames'))
+const History = lazy(() => import('../pages/protected/History'))
 // const Integration = lazy(() => import('../pages/protected/Integration'))
 // const Calendar = lazy(() => import('../pages/protected/Calendar'))
 // const Team = lazy(() => import('../pages/protected/Team'))
@@ -18,7 +19,6 @@ const Transactions = lazy(() => import('../pages/protected/Transactions'))
 // const DocFeatures = lazy(() => import('../pages/DocFeatures'))
 // const DocComponents = lazy(() => import('../pages/DocComponents'))
 
-
 const routes = [
   {
     path: '/dashboard', // the url
@@ -27,6 +27,10 @@ const routes = [
   {
     path: '/approval-games',
     component: ApprovalGames,
+  },
+  {
+    path: '/history',
+    component: History,
   },
   {
     path: '/live-games',

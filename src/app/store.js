@@ -22,17 +22,19 @@ import modalSlice from '../features/common/modalSlice'
 import rightDrawerSlice from '../features/common/rightDrawerSlice'
 import liveGameSlice from '../features/livegames/liveGameSlice'
 import approvalGamesSlice from '../features/approvalgames/approvalGameSlice'
+import historySlice from '../features/history/historySlice'
 import authSlice from './authReducers'
 
 const combinedReducer = {
-  auth : authSlice,
-  header : headerSlice,
-  rightDrawer : rightDrawerSlice,
-  modal : modalSlice,
-  liveGames : liveGameSlice,
-  approvalGames : approvalGamesSlice
+  auth: authSlice,
+  header: headerSlice,
+  rightDrawer: rightDrawerSlice,
+  modal: modalSlice,
+  liveGames: liveGameSlice,
+  approvalGames: approvalGamesSlice,
+  history: historySlice,
 }
 
 export default configureStore({
-    reducer: combinedReducer
+  reducer: combinedReducer,
 })

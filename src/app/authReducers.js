@@ -4,8 +4,8 @@ import axios from 'axios'
 import checkAuth from './auth'
 
 export const loginAction = createAsyncThunk('login', async (userData) => {
-  const response = await axios.post(config.serverUrl + '/api/login', userData)
-  return response.data
+  // const response = await axios.post(config.serverUrl + '/api/login', userData)
+  // return response.data
 })
 
 export const authSlice = createSlice({
